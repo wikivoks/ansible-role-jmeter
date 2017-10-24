@@ -1,5 +1,6 @@
-Ansible Role: Install Jmeter 3.3
+Ansible Role: Apache JMeter 3.3
 =========
+An Ansible Role that install Apache JMeter
 
 The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
 
@@ -15,7 +16,7 @@ A description of the settable variables for this role should go here, including 
 Dependencies
 ------------
 
-None. Note: Jmeter has JAVA dependency. 
+None. Note: JMeter has JAVA dependency. 
 
 Example Playbook
 ----------------
