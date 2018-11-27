@@ -17,4 +17,4 @@
     src: '{{ item.src }}'
     state: link
   with_items:
-    - { src: '/opt/apache-jmeter-{{ jmeter_version }}/bin/jmeter', dest: '/usr/bin/jmeter' }
+    - { src: '/{{maven_home_parent_directory}}/apache-jmeter-{{ jmeter_version }}/bin/jmeter', dest: '/usr/bin/jmeter' }
